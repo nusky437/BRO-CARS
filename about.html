@@ -25,7 +25,7 @@
   <meta name="twitter:description" content="Trusted UK car marketplace to buy and sell used cars easily." />
 
   <!-- Favicon -->
-<link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
@@ -35,7 +35,7 @@
 <!-- NAVBAR -->
 <nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
-   <a href="index.html" class="nav-logo" aria-label="Bro Cars Home">
+   <a href="index.html" class="nav-logo" aria-label="Bro Cars Home" >
   <img src="logo.png" alt="Bro Cars UK Car Sales Logo" style="height: 150px; width: auto; margin-top: 32%; margin-left: -10%;">
   <span class="logo-text" style="margin-left: -30px; font-size: 30px;">BRO <span class="highlight" style="font-size: 30px;">CARS</span></span>
 </a>
@@ -55,291 +55,58 @@
   </div>
 </nav>
 
-<!-- HERO SLIDESHOW -->
-<section class="hero" aria-label="Hero slideshow">
-  <div class="slide active">
-    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1400&q=75&auto=format&fit=crop" alt="Luxury car at a UK dealership" loading="eager" />
+<!-- PAGE COVER -->
+<div class="page-cover">
+  <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1400&q=70&auto=format&fit=crop" alt="A red sports car representing Bro Cars' passion for vehicles" loading="eager" />
+  <div class="page-cover-content">
+    <h1>About Bro Cars</h1>
+    <p>UK's simple and trusted car marketplace.</p>
   </div>
-  <div class="slide">
-    <img src="https://w0.peakpx.com/wallpaper/698/296/HD-wallpaper-car-night-city.jpg" alt="Row of used cars for sale in the UK" loading="lazy" />
-  </div>
-  <div class="slide">
-    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1400&q=75&auto=format&fit=crop" alt="Sports car on a UK road" loading="lazy" />
-  </div>
+</div>
 
-  <div class="hero-content">
-    <h1>Buy &amp; Sell Cars<br /><span>Across the UK</span></h1>
-    <p>Affordable and reliable used cars.</p>
-    <div class="hero-buttons">
-      <a href="ads.html" class="btn btn-red">Browse Cars</a>
-      <a href="sell.html" class="btn btn-outline">Sell Your Car</a>
-    </div>
-  </div>
-
-  <div class="slide-dots" aria-label="Slideshow navigation">
-    <button class="dot active" aria-label="Slide 1"></button>
-    <button class="dot" aria-label="Slide 2"></button>
-    <button class="dot" aria-label="Slide 3"></button>
-  </div>
-</section>
-
-<!-- SEARCH SECTION -->
-<section class="search-section" aria-label="Search cars">
+<!-- ABOUT CONTENT -->
+<section class="section">
   <div class="container">
-    <div class="search-grid">
-      <div class="search-field">
-        <label for="sBrand">Brand</label>
-        <select id="sBrand">
-          <option value="">All Brands</option>
-          <option>BMW</option>
-          <option>Audi</option>
-          <option>Mercedes</option>
-          <option>Ford</option>
-          <option>Toyota</option>
-          <option>Honda</option>
-          <option>Volkswagen</option>
-          <option>Nissan</option>
-        </select>
+    <div class="about-content">
+      <div class="about-text">
+        <h2>Who We Are</h2>
+        <p>Bro Cars is a UK-based online car marketplace built to make buying and selling vehicles straightforward. We connect private sellers with buyers across England, Scotland, Wales, and Northern Ireland.</p>
+        <p>We believe car transactions should be simple, transparent, and safe — no unnecessary fees, no complicated processes.</p>
+        <p>Whether you're a first-time buyer or an experienced seller, Bro Cars gives you the tools to find or list a vehicle with confidence.</p>
+
+        <div class="mission-box">
+          <h3>Our Mission</h3>
+          <p>To provide a simple and secure UK car marketplace where anyone can buy or sell a vehicle quickly, safely, and without hassle.</p>
+        </div>
       </div>
-      <div class="search-field">
-        <label for="sFuel">Fuel Type</label>
-        <select id="sFuel">
-          <option value="">All Fuels</option>
-          <option>Petrol</option>
-          <option>Diesel</option>
-          <option>Hybrid</option>
-          <option>Electric</option>
-        </select>
-      </div>
-      <div class="search-field">
-        <label for="sTrans">Transmission</label>
-        <select id="sTrans">
-          <option value="">All</option>
-          <option>Manual</option>
-          <option>Automatic</option>
-        </select>
-      </div>
-      <div class="search-field">
-        <label for="sPrice">Max Price (£)</label>
-        <input id="sPrice" type="number" placeholder="e.g. 15000" min="0" />
-      </div>
-      <div class="search-field">
-        <label>&nbsp;</label>
-        <a href="ads.html" class="btn btn-red" style="display:flex;align-items:center;justify-content:center;gap:6px">
-          🔍 Search
-        </a>
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&q=75&auto=format&fit=crop" alt="Friendly Bro Cars team helping a customer" loading="lazy" />
       </div>
     </div>
   </div>
 </section>
 
-<!-- FEATURED CARS -->
-<section class="section" aria-labelledby="featured-title">
+<!-- STATS STRIP -->
+<div style="background:var(--gray-light);padding:48px 0;border-top:1px solid var(--gray)">
   <div class="container">
-    <h2 class="section-title" id="featured-title">Featured Cars</h2>
-    <p class="section-sub">Hand-picked listings from across the UK.</p>
-
-    <div class="cars-grid">
-
-      <!-- Card 1 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=70&auto=format&fit=crop" alt="2020 BMW 3 Series blue saloon" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>BMW 3 Series</h3>
-          <div class="car-meta">
-            <span>2020</span>
-            <span>32,000 km</span>
-            <span>Petrol</span>
-            <span>Automatic</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£22,500</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&q=70&auto=format&fit=crop" alt="2019 Ford Focus in silver" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Ford Focus</h3>
-          <div class="car-meta">
-            <span>2019</span>
-            <span>48,000 km</span>
-            <span>Petrol</span>
-            <span>Manual</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£9,990</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&q=70&auto=format&fit=crop" alt="2021 Toyota Corolla hybrid white" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Toyota Corolla</h3>
-          <div class="car-meta">
-            <span>2021</span>
-            <span>18,000 km</span>
-            <span>Hybrid</span>
-            <span>Automatic</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£19,750</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 4 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=70&auto=format&fit=crop" alt="2018 Audi A4 grey saloon" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Audi A4</h3>
-          <div class="car-meta">
-            <span>2018</span>
-            <span>61,000 km</span>
-            <span>Diesel</span>
-            <span>Automatic</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£15,200</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 5 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&q=70&auto=format&fit=crop" alt="2022 Tesla Model 3 electric car" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Tesla Model 3</h3>
-          <div class="car-meta">
-            <span>2022</span>
-            <span>12,000 km</span>
-            <span>Electric</span>
-            <span>Automatic</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£29,900</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 6 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?w=600&q=70&auto=format&fit=crop" alt="2017 Volkswagen Golf hatchback" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Volkswagen Golf</h3>
-          <div class="car-meta">
-            <span>2017</span>
-            <span>74,000 km</span>
-            <span>Diesel</span>
-            <span>Manual</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£8,450</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 4 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=70&auto=format&fit=crop" alt="2018 Audi A4 grey saloon" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Audi A4</h3>
-          <div class="car-meta">
-            <span>2018</span>
-            <span>61,000 km</span>
-            <span>Diesel</span>
-            <span>Automatic</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£15,200</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 5 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&q=70&auto=format&fit=crop" alt="2022 Tesla Model 3 electric car" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Tesla Model 3</h3>
-          <div class="car-meta">
-            <span>2022</span>
-            <span>12,000 km</span>
-            <span>Electric</span>
-            <span>Automatic</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£29,900</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 6 -->
-      <article class="car-card">
-        <div class="car-card-img">
-          <img src="https://images.unsplash.com/photo-1627483262268-9c2b5b2834b5?w=600&q=70&auto=format&fit=crop" alt="2017 Volkswagen Golf hatchback" loading="lazy" />
-        </div>
-        <div class="car-card-body">
-          <h3>Volkswagen Golf</h3>
-          <div class="car-meta">
-            <span>2017</span>
-            <span>74,000 km</span>
-            <span>Diesel</span>
-            <span>Manual</span>
-          </div>
-          <div class="car-card-footer">
-            <span class="car-price">£8,450</span>
-            <a href="ads.html" class="btn btn-red" style="padding:8px 18px;font-size:13px">View</a>
-          </div>
-        </div>
-      </article>
-
-    </div>
-
-    <div style="text-align:center;margin-top:36px">
-      <a href="ads.html" class="btn btn-red">View All Listings</a>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;text-align:center">
+      <div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.6rem;font-weight:900;color:var(--red)">5,000+</div>
+        <div style="font-size:14px;color:var(--gray-text);text-transform:uppercase;font-weight:700;letter-spacing:0.5px">Vehicles Listed</div>
+      </div>
+      <div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.6rem;font-weight:900;color:var(--red)">12,000+</div>
+        <div style="font-size:14px;color:var(--gray-text);text-transform:uppercase;font-weight:700;letter-spacing:0.5px">Happy Customers</div>
+      </div>
+      <div>
+        <div style="font-family:'Barlow Condensed',sans-serif;font-size:2.6rem;font-weight:900;color:var(--red)">UK Wide</div>
+        <div style="font-size:14px;color:var(--gray-text);text-transform:uppercase;font-weight:700;letter-spacing:0.5px">Coverage</div>
+      </div>
     </div>
   </div>
-</section>
-
-<!-- INTRO -->
-<section class="intro-section" aria-label="About Bro Cars">
-  <div class="container">
-    <h2>The UK's Simple Car Marketplace</h2>
-    <p>Bro Cars is a UK based online car marketplace helping customers buy and sell vehicles quickly and safely. Whether you're looking for your next car or ready to sell, we make it simple.</p>
-  </div>
-</section>
+</div>
 
 <!-- FOOTER -->
-<footer class="footer">
-
   <a href="https://wa.me/+94769988123" 
    class="whatsapp-float" 
    target="_blank" 
@@ -347,6 +114,8 @@
    <img src="whatsappicon.png" 
         alt="WhatsApp Chat">
 </a>
+
+<footer class="footer">
   <div class="container">
     <div class="footer-grid">
 
@@ -404,8 +173,7 @@
   </div>
 </footer>
 
+
 <script src="script.js"></script>
 </body>
 </html>
-
-
